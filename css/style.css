@@ -115,9 +115,8 @@
     cursor: pointer;
 }
 .pfh-payment-card h1:hover{
-    background: #FFEEEE !important;
+    background: #FFEEEE;
     color: #FF5959;
-    border: 0px solid #FF5959;
 }
 
 .pfh-amount-selected-card{
