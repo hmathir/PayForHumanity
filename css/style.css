@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+}
+
+/* Mostly Used Common Tags Here */
+.pfh-common-heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54.46px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.pfh-common-paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+
+.pfh-btn{
+    font-family: 'Inter', sans-serif;
+    background-color: #FF5959;
+    padding: 16px 26px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+}
+
+
+/* Header Section Started From Here. */
+
+.pfh-header-section{
+   height: 100vh;
+   background-image: url(../images/header-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 0px 4px 4px #00000025;
+}
+
+.pfh-header-content{
+    height: 100%;
+    padding: 175px 307px;
+    background: linear-gradient(360deg, #121212, #12121200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pfh-header-content .pfh-header-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78.66px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.pfh-header-content p{
+    color: #ffffff !important;
+    margin-bottom: 30px;
+}
+
+/* Here We use .pfg-button on here, You will find this on top. */
+
+
+/* Amount Section Started From Here */
+.pfh-amount-section{
+    padding: 130px 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* We use .pfh-common-heading on here. You will find this on top. */
+
+/* We use .pfh-common-paragraph on here. You will find this on top. */
+
+.pfh-quote{
+    color: #FF5959;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.pfh-payment-card{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.pfh-payment-card h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+    padding: 43px 25px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin: 0px 11px;
+    color: #707070;
+    cursor: pointer;
+}
+.pfh-payment-card h1:hover{
+    background: #FFEEEE !important;
+    color: #FF5959;
+    border: 0px solid #FF5959;
+}
+
+.pfh-amount-selected-card{
+    background: #FFEEEE !important;
+    color: #FF5959 !important;
+    border: 2px solid #FF5959;
+}
+
+#pfh-amount-input[type="text"]{
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    text-align: center;
+    width: 824px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+#pfh-amount-input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+}
+
+/* Here We use .pfg-button on here, You will find this on top. */
+
+
+
+
+/*Our Donate Plan Section Started From Here */
+
+.pfh-donate-plan-section{
+    padding: 0 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* We use .pfh-common-heading tah on here. You will find this tag on top. */
+
+/* We use .pfh-common-paragraph tah on here. You will find this tag on top. */
+
+.pfh-donate-plan-card-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 177px 50px 157px;
+        
+}
+.pfh-donate-single-plan-card{
+    width: 360px;
+    height: 352px;
+    padding: 62.5px 22px 53.72px 23px;
+    margin: 0px 12px 100px 12px;
+    border-radius: 5px;
+
+}
+
+.pfh-donate-single-plan-card h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 31.73px auto 16px auto;
+}
+.pfh-donate-single-plan-card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+#pfh-card1{
+    background: #4F9DA610;
+}
+#pfh-card2{
+    background: #FF595910;
+}
+#pfh-card3{
+    background: #FFF4D6;
+}
+
+
+/* Contribute Section Started Here. */
+
+.pfh-contribute-section{
+    display: flex;
+    width: 100%;
+    padding: 0px 156px;
+    margin-bottom: 100px;
+}
+
+.pfh-half-width{
+    width: 50%;
+    
+}
+
+.pfh-contribute-text{
+    padding: 20px 47px;
+}
+.pfh-contribute-image img{
+    width: 100%;
+    height: 400px;
+    padding: 20px 47px;
+
+}
+
+.pfh-contribute-heading{
+    text-align: left;
+}
+.pfh-contribute-paragraph{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* We used .pfh-btn here, You can find this part on top. */
+
+.pfh-contribute-btn{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    padding: 12px 24px;
+
+}
+
+/* Volunteer Section Stated Here. */
+
+.pfh-become-volunteer-section{
+    height: 60vh;
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.pfh-become-volunteer-content{
+    height: 100%;
+    background: linear-gradient(360deg, #121212, #12121250);
+}
+.pfh-become-volunter-heading{
+    color: #ffffff;
+    padding: 60px 400px 30px 400px;
+}
+.pfh-become-volunter-paragraph{
+    color: #ffffff;
+    padding: 0px 400px 30px 400px;
+    margin-bottom: 40px;
+}
+
+
+
+/* Recent Project Section Started Here. */
+.pfh-gallery{
+    margin:100px auto;
+}
+
+.pfh-gallery-heading{
+    margin-bottom: 30px;
+}
+
+/* We use .pfh-common-heading tah on here. You will find this tag on top. */
+
+/* We use .pfh-common-paragraph tah on here. You will find this tag on top. */
+
+.pfh-gallery-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 170px 50px 170px;
+    
+}
+.pfh-gallery-items{
+    height: 200px;
+    width: 300px;
+    padding: 0px 20px;
+
+}
+.pfh-gallery-items img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #00000050;
+}
+
+
+
+/* News Letter Section Start Here. */
+
+.pfh-newsletter-section{
+    margin-top: 150px;
+    width: 100%;
+}
+
+.pfh-newslatter-form{
+    margin: 30px auto 150px auto;
+    background: #FFF4D6;
+    width: 60%;
+    border-radius: 5px;
+    padding: 80px 190px;
+}
+
+
+.pfh-newslatter-form input[type="email"]{
+    width: 70%;
+    padding: 20px;
+    background: #D9D9D9;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.pfh-newslatter-form input[type="submit"]{
+    width: 30%;
+    background: #FF5959;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-left: -5px;
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* Footer Section Started Here. */
+
+footer{
+    height: 180px;
+    background: #000D17;
+}
+
+footer img{
+    display: block;
+    margin: 0px auto;
+}
+
+.pfh-footer-content{
+    padding: 50px;
+}
